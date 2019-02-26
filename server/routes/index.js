@@ -4,7 +4,7 @@ let router = express.Router();
 let mongoose = require('mongoose');
 
 // define the game model
-let book = require('../models/books');
+let book = require('../models/books');     //Sakshi Bharti (300991470)-BooksList
 
 /* GET home page. wildcard */
 router.get('/', (req, res, next) => {
